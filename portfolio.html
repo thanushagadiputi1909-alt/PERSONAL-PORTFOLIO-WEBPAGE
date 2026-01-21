@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<header>
+    <h1></h1>THANUSHA
+    <p>Front End Web Developer | Student</p>
+</header>
+<div class="btn-container">
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('projects')">Projects</button>
+    <button onclick="showSection('contact')">Contact</button>
+</div>
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        Hello Everyone,This is G THANUSHA
+        I am learning web development.
+        I like creating simple and clean websites using HTML,CSS,JS.
+        I have completed 4 basic and simple projects using html,css and javascript mentioned in the projects .
+    </p>
+</section>
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>React</li>
+    </ul>
+</section>
+<section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio using HTML and CSS.</p>
+        <p>Real time chat application using websocket and react.js</p>
+        <p>Intercative quiz application</p>
+        <p>E-learing platform</p>
+    </div>
+</section>
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: tanshi@gmail.com</p>
+    <p>Phone: +91 8974423492</p>
+</section>
+<footer>
+    <p>© 2026 Thanusha</p>
+</footer>
+<script>
+    function showSection(sectionId) {
+        const sections = document.querySelectorAll('.section');
+        sections.forEach(section => {
+            section.style.display = 'none';
+        });
+        document.getElementById(sectionId).style.display = 'block';
+    }
+    showSection('about');
+</script>
+</body>
+</html>
+
