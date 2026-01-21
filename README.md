@@ -28,3 +28,10 @@ The contact section plays a key role by allowing visitors to reach out easily. I
 In conclusion, a personal portfolio webpage is more than just an online resume. It is a reflection of an individual’s personality, skills, and ambition. By combining creativity, clarity, and usability, a well-designed portfolio helps individuals stand out, build a strong online presence, and create meaningful professional connections.
 
 OUTPUT:
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/bc144289-11c2-4281-be91-60ba34a67460" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/468c80b9-133c-498f-9e07-79a76c3ab532" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/dc2a900f-5189-43b3-8d26-afbb0303d278" />
+
+<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/dfcf862d-daf7-486e-9912-ff9d7fd5f0ce" />
